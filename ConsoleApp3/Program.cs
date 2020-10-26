@@ -8,13 +8,6 @@ namespace md5_encrypt
     {
         static void Main(string[] args)
         {
-            //########################
-            //########################
-            //github.com/dogukanturan
-            //turandogukan.blogspot.com
-            //########################
-            //########################
-
             Console.Write("Enter the text to be encrypted : ");
             string source = Convert.ToString(Console.ReadLine());
             using (MD5 md5Hash = MD5.Create())
